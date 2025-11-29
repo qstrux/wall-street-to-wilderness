@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>从华尔街到荒野：共同价值观之旅</title>
+    <meta name="description" content="一段鼓舞人心的视觉之旅，探索从华尔街到荒野的转变，发现连接我们所有人的普世价值观。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Wall Street to Wilderness</div>
+            <div class="nav-progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <button class="nav-top-btn" onclick="scrollToTop()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">从华尔街到荒野</h1>
+            <p class="hero-subtitle">A Journey of Shared Values</p>
+            <p class="hero-description">探索两个世界的交汇，发现连接我们的共同价值</p>
+            <button class="cta-button" onclick="scrollToStory()">
+                开始旅程
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Story Content -->
+    <main class="story-container" id="story">
+        <div class="story-intro">
+            <h2>这是一段关于转变、发现与价值的故事</h2>
+            <p>从繁华都市到静谧荒野，从金融世界到自然世界，这不仅是地理位置的改变，更是心灵的旅程。</p>
+        </div>
+
+        <div class="story-content" id="storyContent">
+            <!-- Images will be loaded here -->
+        </div>
+
+        <div class="story-conclusion">
+            <h2>旅程永不止步</h2>
+            <p>每一次选择都是一次新的开始，每一个转变都蕴含着无限可能。</p>
+            <button class="cta-button" onclick="scrollToTop()">回到开始</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>From Wall Street to the Wilderness</h3>
+                <p>一段关于价值观、选择与转变的视觉叙事</p>
+            </div>
+            <div class="footer-section">
+                <p>&copy; 2025 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
